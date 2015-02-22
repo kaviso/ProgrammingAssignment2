@@ -40,3 +40,11 @@ cacheSolve <- function(x, ...) {
   x$setresult(inverse)
   inverse
 }
+
+## a sample for this is... 
+## x <- rbind(c(1,2,3),c(0,1,4),c(5,6,0))
+##result should be:
+##     [,1] [,2] [,3]
+##[1,]  -24   18    5
+##[2,]   20  -15   -4
+##[3,]   -5    4    1
